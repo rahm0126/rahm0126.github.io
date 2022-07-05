@@ -1,0 +1,72 @@
+body {
+    background-color:#aad4cf ;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#body-container {
+    margin: auto;
+    width: 70%;
+    background-color: #d4e9e7;
+}
+
+.header {
+    position: relative;
+    max-width: 100%;
+}
+
+.header>img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.nav {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 5px;
+}
+
+#life-of-a-starfish {
+    margin-top: 30px;
+}
+
+.container>img {
+    width: 125px;
+    height: auto;
+    float: left;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.no-float {
+    clear: left;
+}
+
+ul {
+    padding: 12px;
+}
+
+form {
+    border: 1px solid;
+}
+
+footer {
+    text-align: right;
+}
