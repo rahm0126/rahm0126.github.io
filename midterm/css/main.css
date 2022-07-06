@@ -64,7 +64,27 @@ ul {
 }
 
 form {
-    border: 1px solid;
+    border: 1px solid;  
+    padding: 10px;
+}
+
+.full-width {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label.full-width {
+    margin-top: 10px;
+}
+
+.send-button {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 10px;
+    
 }
 
 footer {
