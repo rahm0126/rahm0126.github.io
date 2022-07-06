@@ -30,21 +30,30 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    margin-bottom: 8px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
 .nav {
     width: 33.333%;
     float: left;
     text-align: center;
+    font-size: 12px;
     text-transform: uppercase;
-    border-left: 1px solid black;
+    font-weight: 600;
     box-sizing: border-box;
+}
+
+.nav+.nav {
+    border-left: 1px solid black;
 }
 
 main {
     margin: 5px;
-}
-
-#life-of-a-starfish {
-    margin-top: 30px;
 }
 
 .container>img {
@@ -60,7 +69,7 @@ main {
 }
 
 ul {
-    padding: 12px;
+    padding-left: 12px;
 }
 
 form {
@@ -89,4 +98,5 @@ label.full-width {
 
 footer {
     text-align: right;
+    padding: 20px;
 }
