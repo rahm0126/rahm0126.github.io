@@ -27,7 +27,7 @@
                     </nav>
                     <form action="search.html" method="get">
                         <input id="search" type="text" placeholder="Search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div><i class="fa-solid fa-magnifying-glass"></i></div>
                     </form>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam praesentium laboriosam provident error, fugit et tenetur nobis dolores. Est eveniet suscipit recusandae, eum veniam minus omnis qui accusantium saepe explicabo!</p>
                             <div>
                                 <button>
-                                    <a href="more-info.html" target="_blank" class="icon3">Learn More</a>
+                                     Learn More
                                     <i class="fa-solid fa-caret-right"></i>
                                 </button>
                             </div>
@@ -165,7 +165,7 @@
                                 <img id="john" src="images/john.jpg" alt="picture of a team member">
                                 <div>
                                     <h3>John Doe</h3>
-                                    <h5>CEO and Co-owner</h5>
+                                    <h4>CEO and Co-owner</h4>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ea impedit eveniet consequuntur repellendus qui quibusdam. Doloribus quia veniam consequuntur omnis hic. Incidunt perspiciatis soluta distinctio molestias non magnam labore.</p>
                                 </div>
                             </div>
@@ -174,35 +174,35 @@
                                 <img id="bob" src="images/bob.jpg" alt="picture of a team member">
                                 <div>
                                     <h3>Bob Rite</h3>
-                                    <h5>CFO and Co-owner</h5>
+                                    <h4>CFO and Co-owner</h4>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ea impedit eveniet consequuntur repellendus qui quibusdam. Doloribus quia veniam consequuntur omnis hic. Incidunt perspiciatis soluta distinctio molestias non magnam labore.</p>
                                 </div>
                             </div>
                     </div>
                 <!--a dive for grid-->
-                <div class="contact-grid">
+                <div class="contact-grid body-container">
                     <!--placing a contact form-->
                     <div id="contact-us">
-                        <div class="body-container">
+                        <div>
                             <h2>Contact Us</h2>
                             <h3>Send us a message</h3>
                             <form action="thanks.html" method="post">
 
-                                <label class="full-width" for="fullname">Full Name</label>
-                                <input class="full-width" id="fullname" type="text">
+                                <label  for="fullname">Full Name</label>
+                                <input  id="fullname" type="text">
 
-                                <label class="full-width" for="email">Email</label>
-                                <input class="full-width" id="email" type="email">
+                                <label  for="email">Email</label>
+                                <input  id="email" type="email">
 
-                                <label class="full-width" for="message">Message</label>
-                                <textarea class="full-width" id="message"></textarea>
+                                <label  for="message">Message</label>
+                                <textarea id="message" rows="5"></textarea>
 
-                                <div><input class="send-button" type="submit" value="SEND"></div>
+                                <div><button class="send-button">Send</button></div>
                             </form>
                         </div>
                     </div>
                     <!--work hours table-->
-                    <div class="table body-container">
+                    <div class="table">
                         <h3>Hours of operation</h3>
                         <table>
                             <thead>
@@ -224,13 +224,16 @@
                         </table>
                     </div> 
                     <!--placing google map location--> 
-                    <div class="location body-container">
+                    <div class="location">
                                 <h3>Location</h3>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9447385726894!2d-75.75713084879335!3d45.34992777899718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1659418723322!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>   
                 </div>
-                <footer>&copy; Copyright Three Star Media, 2020
-                            <p>All images are  taken from <a href="https://mani-unsplash-clone.netlify.app/" target="_blank">Unsplash</a></p>
+                <footer >
+                    <div class="body-container">
+                        <p>© Copyright Three Star Media, 2020</p>
+                        <p>All images are  taken from <a href="https://mani-unsplash-clone.netlify.app/" target="_blank">Unsplash</a></p>
+                    </div>
                 </footer>
             </main>     
     </body>
